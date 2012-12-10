@@ -36,6 +36,7 @@ nictab=$(pwd)/${name}.nictab # nic layout
 ## post install
 
 execscript=$(pwd)/execscript.sh
+guestroot_dir="$(pwd)/guestroot"
 copy=$(pwd)/copy.txt
 
 # kvm-ctl
